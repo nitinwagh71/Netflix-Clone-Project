@@ -1,0 +1,258 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    color: white;
+    background-color: black;
+}
+
+.top-header, .videosection, .faq-container {
+    border-bottom: 7px solid #535251;
+}
+
+/* Header section Start */
+/* Header section background Image */
+.top-header {
+    width: 100%;
+    height: 650px;
+    background-image: url("Netflix_clone_images/backgroundimage.jpg");
+    background-size: cover;
+}
+
+/* Background Image Dark */
+.container {
+    width: 100%;
+    height: 650px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Navigation Border */
+.nav-border {
+    width: 100%;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Navbar for Logo,Language and SignIn */
+.navbar {
+    width: 1050px;
+    height: 48px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;   
+}
+
+/* Logo Border */
+.logo-border {
+    width: 335px;
+    height: 40px;
+    margin: 8px 0px 0px 16px;
+}
+
+.netflixlogo {
+    width: 148px;
+    height: 40px;
+    background-image: url("Netflix_clone_images/logo.png");
+    background-size: cover;
+}
+
+/*Llanguage-Signin Border */
+.language-signin-border {
+    width: 708px;
+    height: 32px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: -24px;
+}
+
+/* Language Options */
+.language {
+    width: 123px;
+    height: 32px;
+    border: 1px double white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0.5rem;
+    background-color: rgb(16,16,16);
+}
+
+/* Language Icon */
+.language i {
+    color: #FFFFFF;
+    font-size: 25px; 
+}
+
+/* Signin Button */
+.signin button{
+    width: 76px;
+    height: 35px;
+    background-color: #E50914;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+/* Information Border */
+.information {
+    width: 910px;
+    height: 310px;
+    border: 10px double blue; 
+    font-family: 'Times New Roman';  
+}
+
+.info1 {
+    color: #FFFFFF;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 150px; 
+}
+
+.info2 {
+    color: #FFFFFF;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 400px;
+    margin-top: 20px;
+}
+
+.info3 {
+    color: #FFFFFF;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 400px;
+    margin-top: 25px;
+}
+
+.email-get-started {
+    /* width: 590px; */
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 167px 0px 167px;
+
+
+}
+
+.email {
+    width: 370px;
+    height: 56px;
+    padding: 24px 16px 8px 16px;
+    border: 1px solid #29B16D;
+    line-height: 1.5;   
+}
+
+/* .border:hover {
+    border: 2px solid white;
+
+} */
+
+/* .email input {
+    text-decoration: none;
+} */
+
+.get-started button {
+    width: 210px;
+    height: 56px;
+    background-color: #E50914;
+    border: 1px solid black;
+    color: rgb(255, 255, 255);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    margin-left: 10px;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.videosection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 100px;
+    /* margin: 30px 0px 30px 0px; */
+   
+}
+
+.left-item h1, .right-item h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.left-item p, .right-item p {
+    font-size: 24px;
+} 
+
+.right-item {
+    position: relative;
+}
+
+.right-item > video {
+    position: absolute;
+    left: 80px;
+    top: 20%;
+    z-index: -1;
+}
+
+.faq-container {
+   padding: 40px 100px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   /* margin: 20px; */
+}
+
+.faq-container h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+ }
+
+.questions {
+    display: flex;
+    justify-content: space-between;
+    align-self: stretch;
+    padding: 20px;
+    background-color: #2d2d2d;
+    transition-duration: 1s;
+}
+
+.questions p, .questions i {
+    font-size: 24px;
+}
+
+.questions:hover {
+    background-color: #808B96;
+}
+
+.footer {
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+    flex-direction: row;
+    margin: 70px;
+}
+
+.footer p, .footer a {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+}
+
+
+
