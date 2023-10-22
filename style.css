@@ -10,6 +10,7 @@ html {
     background-color: black;
 }
 
+/* Border bottom after every .top-header, .videosection and .faq-container */
 .top-header, .videosection, .faq-container {
     border-bottom: 7px solid #535251;
 }
@@ -137,17 +138,16 @@ html {
     margin-top: 25px;
 }
 
+/* Email and get-started */
 .email-get-started {
-    /* width: 590px; */
     height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 20px 167px 0px 167px;
-
-
 }
 
+/* Email  */
 .email {
     width: 370px;
     height: 56px;
@@ -156,15 +156,7 @@ html {
     line-height: 1.5;   
 }
 
-/* .border:hover {
-    border: 2px solid white;
-
-} */
-
-/* .email input {
-    text-decoration: none;
-} */
-
+/* Get-started button */
 .get-started button {
     width: 210px;
     height: 56px;
@@ -180,12 +172,12 @@ html {
     font-weight: 400;
 }
 
+/* Video section border */
 .videosection {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 30px 100px;
-    /* margin: 30px 0px 30px 0px; */
    
 }
 
@@ -209,6 +201,7 @@ html {
     z-index: -1;
 }
 
+/* faq-container Border */
 .faq-container {
    padding: 40px 100px;
    display: flex;
@@ -216,7 +209,6 @@ html {
    justify-content: center;
    align-items: center;
    gap: 10px;
-   /* margin: 20px; */
 }
 
 .faq-container h1{
@@ -224,6 +216,7 @@ html {
     margin-bottom: 20px;
  }
 
+ /* Question  */
 .questions {
     display: flex;
     justify-content: space-between;
@@ -241,11 +234,11 @@ html {
     background-color: #808B96;
 }
 
+/* Footer Start */
 .footer {
     height: 300px;
     display: flex;
     justify-content: flex-start;
-    /* align-items: center; */
     flex-direction: row;
     margin: 70px 150px 50px 100px;
 }
@@ -260,7 +253,4 @@ html {
     padding-top: 35px;
 }
 
-/* .language p {
-    padding-left: 30px;
-} */
 
