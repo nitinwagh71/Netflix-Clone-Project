@@ -82,6 +82,8 @@ html {
     align-items: center;
     border-radius: 0.5rem;
     background-color: rgb(16,16,16);
+    margin-left: 17px;
+    margin: 10px 0px 10px 20px;
 }
 
 /* Language Icon */
@@ -240,12 +242,12 @@ html {
 }
 
 .footer {
-    height: 200px;
+    height: 300px;
     display: flex;
     justify-content: flex-start;
     /* align-items: center; */
     flex-direction: row;
-    margin: 70px;
+    margin: 70px 150px 50px 100px;
 }
 
 .footer p, .footer a {
@@ -254,5 +256,11 @@ html {
     color: white;
 }
 
+.help-center, .account, .media-center {
+    padding-top: 35px;
+}
 
+/* .language p {
+    padding-left: 30px;
+} */
 
